@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FamilyGuard Gizlilik Politikası</title>
+<meta name="description" content="FamilyGuard ebeveyn kontrolü uygulaması gizlilik politikası — KVKK uyumlu veri işleme açıklaması.">
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; padding: 0; background: #f6f8fb; color: #1f2933; line-height: 1.65; }
+  header { background: #1e3a8a; color: #fff; padding: 28px 20px; text-align: center; }
+  header h1 { margin: 0 0 6px; font-size: 1.5rem; }
+  header p { margin: 0; opacity: .9; font-size: .95rem; }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+  section { background: #fff; border: 1px solid #e4e9f0; border-radius: 10px; padding: 20px 22px; margin-bottom: 18px; }
+  h2 { font-size: 1.15rem; color: #1e3a8a; margin: 0 0 10px; }
+  h3 { font-size: 1rem; margin: 16px 0 6px; }
+  p, li { font-size: .95rem; }
+  ul { padding-left: 22px; margin: 8px 0; }
+  .meta { font-size: .85rem; color: #52606d; }
+  .notice { background: #fff8e1; border: 1px solid #f0d264; border-radius: 8px; padding: 12px 14px; font-size: .9rem; margin: 10px 0; }
+  code { background: #eef2f7; padding: 1px 5px; border-radius: 4px; font-size: .88em; }
+  footer { text-align: center; color: #7b8794; font-size: .82rem; padding: 20px 16px 40px; }
+  a { color: #1e3a8a; }
+  @media (max-width: 480px) { header h1 { font-size: 1.25rem; } section { padding: 16px; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>FamilyGuard Gizlilik Politikası</h1>
+  <p>Son güncelleme: 28 Eylül 2026</p>
+</header>
+<main>
+  <section>
+    <h2>1. Giriş ve Veri Sorumlusu</h2>
+    <p>FamilyGuard, ebeveynlerin çocuklarının cihazlarını güvenle takip edebilmesi için geliştirilmiş bir ebeveyn kontrolü uygulamasıdır. Bu politika; FamilyGuard ebeveyn uygulaması ile çocuk cihazına kurulan FamilyGuard çocuk uygulamasının hangi verileri, hangi amaçla topladığını, nasıl sakladığını ve hangi haklara sahip olduğunuzu açıklar.</p>
+    <p>Veri sorumlusu: <strong>FamilyGuard</strong> (geliştirici). İletişim e-postası: <strong>familyguard.destek@gmail.com</strong></p>
+    <p class="meta">Bu politika, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve Avrupa Genel Veri Koruma Tüzüğü (GDPR) ilkeleri dikkate alınarak hazırlanmıştır.</p>
+  </section>
+  <section>
+    <h2>2. Toplanan Veriler</h2>
+    <p>FamilyGuard aşağıdaki veri kategorilerini işler:</p>
+    <h3>2.1. Konum Verileri</h3>
+    <ul>
+      <li>Çocuk cihazının <strong>ön planda ve arka planda</strong> toplanan anlık ve geçmiş konum bilgileri (<code>locationHistory/points</code>).</li>
+      <li>Konum geçmişi, ebeveynin uygulamada çocuğunun nerede olduğunu görmesi ve geçmiş rotaları inceleyebilmesi için saklanır.</li>
+    </ul>
+    <h3>2.2. Ses / Mikrofon Verileri</h3>
+    <ul>
+      <li>Çocuk cihazının mikrofonu, ebeveynin başlattığı <strong>canlı ses dinleme</strong> özelliği sırasında kullanılır. Ses, yalnızca ebeveynin aktif olarak başlattığı oturumda iletilir ve oturum sona erdiğinde yayın durdurulur.</li>
+      <li>Mikrofon kullanımı, çocuk cihazında açıkça görünür bir bildirimle yapılır.</li>
+    </ul>
+    <h3>2.3. Cihaz ve Kullanım Verileri</h3>
+    <ul>
+      <li>Çocuk cihazının <strong>cihaz yöneticisi (device admin)</strong> yetkisi kapsamında kilit/uzaktan yönetim işlemleri.</li>
+      <li><strong>Uygulama kullanım istatistikleri</strong> (<code>app_usage</code>): hangi uygulamaların ne kadar süre kullanıldığı bilgisi.</li>
+      <li>Cihaz kimliği, işletim sistemi sürümü ve uygulama sürümü gibi teknik tanımlayıcılar.</li>
+    </ul>
+    <h3>2.4. Aile İçi İçerik Verileri</h3>
+    <ul>
+      <li><strong>Mesajlar</strong> (<code>messages</code>): ebeveyn ve çocuk arasında uygulama üzerinden gönderilen mesajlar.</li>
+      <li><strong>Görevler</strong> (<code>tasks</code>): ebeveynin oluşturduğu görev/hatırlatma listeleri.</li>
+      <li><strong>Uyarılar ve SOS</strong> (<code>alerts</code>, <code>sos_events</code>): hız/geofence uyarıları ve çocuğun gönderdiği SOS bildirimleri.</li>
+      <li><strong>Güvenli bölgeler</strong> (<code>geofences</code>, <code>geofence_events</code>): ebeveynin tanımladığı güvenli bölgeler ve bu bölgelere giriş/çıkış kayıtları.</li>
+      <li><strong>Ödüller</strong> (<code>rewards</code>): görev tamamlama karşılığı verilen ödül puanları.</li>
+    </ul>
+    <h3>2.5. Hesap ve Eşleştirme Verileri</h3>
+    <ul>
+      <li>Ebeveyn ve çocuk cihazlarını eşleştirmek için kullanılan <strong>6 haneli eşleştirme kodu</strong> ve cihaz dokümanındaki sahiplik bilgileri (<code>parent_uid</code>, <code>child_uid</code>).</li>
+      <li>Firebase Authentication tarafından oluşturulan anonim kullanıcı kimliği (UID).</li>
+    </ul>
+  </section>
+  <section>
+    <h2>3. Veri İşleme Amaçları</h2>
+    <ul>
+      <li>Çocuğun konumunu ebeveyne göstermek ve konum geçmişi sunmak,</li>
+      <li>Canlı ses dinleme ve uzaktan cihaz yönetimi özelliklerini çalıştırmak,</li>
+      <li>Mesajlaşma, görev, uyarı, SOS ve güvenli bölge bildirimlerini iletmek,</li>
+      <li>Uygulama kullanım istatistiklerini ebeveyne raporlamak,</li>
+      <li>Uygulamanın güvenliğini sağlamak, hataları gidermek ve hizmeti geliştirmek,</li>
+      <li>Yasal yükümlülüklerin yerine getirilmesi.</li>
+    </ul>
+  </section>
+  <section>
+    <h2>4. Hukuki Dayanak (KVKK m.5)</h2>
+    <p>Kişisel verileriniz aşağıdaki hukuki sebeplere dayanılarak işlenir:</p>
+    <ul>
+      <li><strong>Açık rıza:</strong> Konum, mikrofon ve kullanım istatistikleri gibi hassas veriler için ebeveynin (çocuk adına) ve çocuğun cihazında verilen açık rıza,</li>
+      <li><strong>Sözleşmenin ifası:</strong> Uygulamanın sunduğu hizmetlerin yerine getirilmesi,</li>
+      <li><strong>Meşru menfaat:</strong> Hizmetin güvenliği ve kötüye kullanımın önlenmesi,</li>
+      <li><strong>Hukuki yükümlülük:</strong> Kanunlardan doğan yükümlülüklerin yerine getirilmesi.</li>
+    </ul>
+  </section>
+  <section>
+    <h2>5. Verilerin Paylaşımı ve Üçüncü Taraflar</h2>
+    <p>Verileriniz, hizmetin çalışması için zorunlu olan aşağıdaki sağlayıcılarla sınırlı olarak paylaşılır:</p>
+    <ul>
+      <li><strong>Google Firebase</strong> (Firestore veritabanı, Authentication, proje: <code>familyguard-bcc71</code>): Tüm uygulama verileri Firebase'in sunucularında saklanır. Google'ın veri işleme koşulları ve gizlilik politikası geçerlidir.</li>
+      <li>Veriler, reklam amaçlı olarak üçüncü taraflarla <strong>paylaşılmaz ve satılmaz</strong>.</li>
+      <li>Yasal zorunluluk hâlleri (mahkeme kararı, kanuni yükümlülük) dışında verileriniz üçüncü kişilere aktarılmaz.</li>
+    </ul>
+  </section>
+  <section>
+    <h2>6. Veri Saklama Süreleri</h2>
+    <ul>
+      <li>Konum geçmişi, mesajlar, görevler, uyarılar ve kullanım istatistikleri; ebeveyn tarafından silinene veya eşleştirme sonlandırılana kadar saklanır.</li>
+      <li>Eşleştirme sonlandırıldığında veya cihaz kaydı silindiğinde ilgili cihaza ait veriler <strong>kalıcı olarak silinir</strong>.</li>
+      <li>Hesap silme talebi sonrası veriler en geç 30 gün içinde silinir; yasal saklama yükümlülüğü bulunan veriler yalnızca ilgili süre boyunca tutulur.</li>
+    </ul>
+  </section>
+  <section>
+    <h2>7. Çocuk Verileri</h2>
+    <p>FamilyGuard, 18 yaş altı çocukların verilerini yalnızca <strong>ebeveynin onayı ve kontrolü</strong> ile işler. Çocuk cihazındaki uygulama, ebeveynin eşleştirme koduyla bağladığı cihazla çalışır. Çocuk verileri; konum, mesaj, görev ve kullanım bilgileri dâhil olmak üzere yalnızca bağlı ebeveyn hesabına gösterilir. Ebeveyn, çocuğunun verileri üzerinde tam erişim, düzeltme ve silme hakkına sahiptir.</p>
+  </section>
+  <section>
+    <h2>8. Güvenlik</h2>
+    <p>Verilerinizin korunması için aşağıdaki önlemler uygulanır:</p>
+    <ul>
+      <li>Firestore güvenlik kuralları ile verilere yalnızca <strong>sahip ebeveyn ve bağlı çocuk hesabının</strong> erişebilmesi (sahiplik bazlı erişim kontrolü),</li>
+      <li>Firebase Authentication ile anonim kimlik doğrulama ve cihaz sahipliği doğrulaması,</li>
+      <li>Verilerin Firebase altyapısında aktarım sırasında (TLS) ve saklama sırasında şifrelenmesi,</li>
+      <li>Eşleştirme kodlarının yalnızca eşleştirme anında kullanılması ve toplu sorgulanmasının engellenmesi.</li>
+    </ul>
+  </section>
+  <section>
+    <h2>9. KVKK m.11 Kapsamındaki Haklarınız</h2>
+    <p>KVKK m.11 uyarınca aşağıdaki haklara sahipsiniz:</p>
+    <ul>
+      <li>Kişisel verilerinizin işlenip işlenmediğini öğrenme,</li>
+      <li>İşlenmişse buna ilişkin bilgi talep etme,</li>
+      <li>İşlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme,</li>
+      <li>Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme,</li>
+      <li>Eksik veya yanlış işlenmişse düzeltilmesini isteme,</li>
+      <li>KVKK m.7 uyarınca silinmesini veya yok edilmesini isteme,</li>
+      <li>Düzeltme/silme işlemlerinin aktarılan üçüncü kişilere bildirilmesini isteme,</li>
+      <li>İşlenen verilerin münhasıran otomatik sistemlerle analizi nedeniyle aleyhe bir sonuçla karşılaşmama,</li>
+      <li>Kanuna aykırı işleme nedeniyle zarara uğramanız hâlinde zararın giderilmesini talep etme.</li>
+    </ul>
+    <p>Taleplerinizi aşağıdaki iletişim adresine iletmeniz hâlinde talebiniz en geç <strong>30 gün</strong> içinde sonuçlandırılır. Talebinizle ilgili olarak KVKK m.13 uyarınca kimliğinizi doğrulayıcı bilgiler istenebilir.</p>
+  </section>
+  <section>
+    <h2>10. İletişim</h2>
+    <p>Gizlilik politikamız veya verilerinizle ilgili sorularınız, düzeltme ve silme talepleriniz için bize ulaşın:</p>
+    <p>E-posta: <strong>familyguard.destek@gmail.com</strong></p>
+  </section>
+  <section>
+    <h2>11. Politika Değişiklikleri</h2>
+    <p>Bu politika, hizmetteki veya mevzuattaki değişikliklere göre güncellenebilir. Önemli değişiklikler uygulama içinde ve bu sayfada duyurulur. Sayfanın üst kısmındaki "Son güncelleme" tarihi, politikanın en son değiştirildiği tarihi gösterir.</p>
+  </section>
+</main>
+<footer>
+  FamilyGuard — Gizlilik Politikası · Son güncelleme: 28 Eylül 2026
+</footer>
+</body>
+  </html>
